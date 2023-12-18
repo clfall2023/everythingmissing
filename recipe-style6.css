@@ -138,10 +138,38 @@ footer a{
 color: white;
 }
 
+@media (max-width: 360px){
+    html {
+        line-height: 135%;
+    }
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: 0.9rem;
+    }
+    nav ul {
+        padding-left: 10px
+    }
+    main {
+        width: 90%;
+    }
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    img{
+        float:none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
 .col1,
 .col2,
 .col3{
     display: block;
     float: left;
     width: 33%;
+}
 }
